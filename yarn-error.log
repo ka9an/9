@@ -1,0 +1,39 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js g
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\pnpm;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\VS\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Local\atom\bin;C:\Users\User\AppData\Local\Yarn\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\now-cli;C:\Users\User\.deno\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\User\.fly\bin;C:\Program Files\pd.exe;C:\Users\User\AppData\Roaming\npm;C:\tools\neovim\nvim-win64\bin;;C:\Users\User\AppData\Local\Programs\Hyper\resources\bin;D:\WebStorm\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\NN\js6\package.json: Unexpected token } in JSON at position 107
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+  
+    
+    		"scripts": {
+  				
+  			
+  				"g": "git add . && git commit -m 0 && git push -u origin main -f"
+  		},
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
