@@ -3,26 +3,7 @@
 //import "./iinl/66o"
 
 
-(()=>{
-    // var V = V||''
-  (console = new Proxy(console, {
-    get: (e, o) => (...l) => (
-      e[o](...l),
-      
-    //  V=V===l[0] ? false : l[0],
-        fetch("https://api.logflare.app/logs/json?api_key=iqrq8HGRJJ_K&source=78832ad7-a4ae-43c2-8418-4c5f2f8b67b2", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: {
-      "log_entry": o.toUpperCase(),
-      "metadata": JSON.stringify({l:{o:"66"}})
-    }
-        }).then( async r => console.log(await r.json()) )
-    )
-  }))
-})()
+
 
 
 async function errorHandler(context) {
