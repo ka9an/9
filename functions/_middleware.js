@@ -1,6 +1,6 @@
 // if (typeof L === 'undefined') globalThis.L = {}
 //globalThis.TOKEN = "5034779343:AAE8Ryh5H0EbczCYiF0e9YI0YctZ8kwOfQs"
-//import "./iinl/66o"
+import "./6cc.js"
 
 
 

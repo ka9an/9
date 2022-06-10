@@ -6,10 +6,10 @@
             headers: {
                 "Content-Type": "application/json"
             },
-            body: {
+            body: JSON.stringify({
       "log_entry": "x123",
-      "metadata": {"x":123}
-    }
+      "metadata": {n:999}
+    })
         })  .then( r => r.json() )
   .then( data => {
     console.log(data);
